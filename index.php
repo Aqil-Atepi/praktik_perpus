@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Perpustakaan | SMK Negeri 1 Cimahi</title>
+        <title>Perpustakaan | SMK BINA INFORMATIKA</title>
     </head>
     <body>
         <h2><center>Aplikasi Perpustakaan</center></h2>
