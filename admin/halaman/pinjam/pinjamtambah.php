@@ -4,12 +4,12 @@
 
 <form action="halaman/pinjam/pinjamtambah_aksi.php" method="post">
     <table>
-        <!-- <tr>
+        <tr>
             <td>ID Pinjam</td>
             <td>
                 <input type="text" name="idpinjam" placeholder="Masukan ID Peminjaman">
             </td>
-        </tr> -->
+        </tr>
 
         <tr>
             <td>Petugas</td>

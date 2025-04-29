@@ -2,13 +2,13 @@
     include "../../../koneksi.php";
 
     if(isset($_POST['tomboltambah'])){
-        // $idpinjam    = $_POST['idpinjam'];
+        $idpinjam    = $_POST['idpinjam'];
         $idpetugas      = $_POST['idpetugas'];
         $idsiswa        = $_POST['idsiswa'];
         $idbuku         = $_POST['idbuku'];
         $waktupinjam    = $_POST['waktupinjam'];
 
-        mysqli_query($sambung,"insert into tbl_peminjaman (idpetugas,idsiswa,idbuku,waktupinjam) values ('$idpetugas','$idsiswa','$idbuku','$waktupinjam')");
+        mysqli_query($sambung,"insert into tbl_peminjaman (idpinjam,idsiswa,idbuku,waktupinjam) values ('$idpinjam','$idpetugas','$idsiswa','$idbuku','$waktupinjam')");
     }
 
     header("location:../../index.php?page=pinjam");
