@@ -5,7 +5,7 @@
     </head>
     <body>
         <h2><center>Aplikasi Perpustakaan</center></h2>
-        <h2><center>SMK Negeri 1 Cimahi</center></h2>
+        <h2><center>SMK BINA INFORMATIKA</center></h2>
         <?php
             if(isset($_GET['pesan']))
             {
