@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /*Style untuk header*/
+  .wraper {
+    margin: 20px 20px 20px 20px;
+  }
+  
+  /*Style untuk header*/
+  .kepala {
+    background-color: green;
+    text-align: center;
+    color: white;
+    height: 300px;
+  }
+  
+  .menu {
+    background-color: rgb(117, 227, 241);
+    color: #292020;
+    height: 50px;
+    vertical-align: middle;
+    margin: 10px 0px 10px 0px;
+  }
+  
+  .list_menu {
+    float: left;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .list_menu li {
+    padding: 10px;
+    height: auto;
+    list-style-type: none;
+    float: left;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ffffff;
+    width: auto;
+    text-align: center;
+  }
+  
+  .list_menu li a {
+    text-decoration: none;
+  }
+  
+  .list_menu li a:hover {
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 0px 2px #000;
+  }
+  
+  .list_menu li:hover {
+    background-color: #ffffff;
+  }
+  
+  /*Style untuk sidebar*/
+  .sisikiri {
+    float: left;
+    width: 20%;
+    height: 600px;
+    background: rgb(90, 87, 87);
+    padding: 20px;
+    color: white;
+  }
+  
+  /*Style untuk list pada sidebar*/
+  .sisikiri ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /*Style untuk link pada sidebar*/
+  .sisikiri a {
+    color: yellow;
+  }
+  
+  /*Style untuk konten*/
+  .konten {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #f1f1f1;
+    height: 600px;
+  }
+  
+  /*Style untuk footer*/
+  .kaki {
+    clear: both;
+    background-color: rgb(117, 227, 241);
+    padding: 10px;
+    text-align: center;
+    color: black;
+    height: 100px;
+  }
+
+  /* Table Styling */
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  border: 1px solid #dddddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+table th {
+  background-color: #5dc9e2;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Links inside the table (Edit / Delete) */
+table a {
+  text-decoration: none;
+  color: #2196f3;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+table a:hover {
+  color: #0b7dda;
+  text-decoration: underline;
+}
+
+/* Add Book Button */
+.tambah {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #28a745; /* Green color */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.tambah:hover {
+  background-color: #218838;
+}
+
+/* General Button Styling (for submit) */
+.button-ubah {
+  background-color: #ffc107; /* Yellow color for "Ubah" */
+  border: none;
+  color: #212529;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-ubah:hover {
+  background-color: #e0a800;
+  color: #ffffff;
+}
